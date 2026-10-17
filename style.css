@@ -1,0 +1,117 @@
+@import url(https://fonts.bunny.net/css?family=coral-pixels:400|dotgothic16:400);
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    animation: spin linear infinite 1s;
+}
+@keyframes spin {
+    0%   { transform: scale(100%) rotate(-.1deg) }
+    15%  { transform: scale(101%) }
+    50%  { transform: scale(100%) rotate(.1deg) }
+    65%  { transform: scale(101%) }
+    100% { transform: scale(100%) rotate(-.1deg) }
+}
+
+html, body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Coral Pixels', display;
+    animation: awooga linear infinite 5s;
+}
+@keyframes awooga {
+    0%   { transform: scale(100%) rotate(-10deg) }
+    15%  { transform: scale(200%) }
+    50%  { transform: scale(100%) rotate(10deg) }
+    65%  { transform: scale(200%) }
+    100% { transform: scale(100%) rotate(-10deg) }
+}
+
+a, p {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 14px;
+    letter-spacing: .1ch;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+header {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: cyan;
+    color: aliceblue;
+    z-index: 9999;
+    padding-bottom: 100px;
+    -webkit-mask:
+    conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) 50%/80px 100%;
+}
+.header-control {
+    display: flex;
+    gap: 1rem;
+}
+
+input {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 14px;
+    letter-spacing: .1ch;
+    width: 100%;
+    min-height: 24px;
+    padding: .5rem;
+    border: 1px solid black;
+}
+input::placeholder {
+    color: blue;
+}
+input:hover {
+    background-color: yellow;
+}
+
+.button-primary {
+    border-radius: 3px;
+    padding: .5rem 2rem;
+    color: aliceblue;
+    background-color: blue;
+    border-bottom: 1px solid black;
+}
+.button-primary:hover {
+    background-color: black;
+}
+
+.content {
+    background-color: yellow;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.mumu {
+    width: 50%;
+    filter: invert();
+    mix-blend-mode: multiply;
+}
+.dance {    
+    animation: dance linear infinite 1s;
+}
+p span.dance2 {    
+    animation: awooga linear infinite .1s;
+    color: blue;
+}
+@keyframes dance {
+    0%   { transform: scale(100%) rotate(-1deg) }
+    15%  { transform: scale(105%) }
+    50%  { transform: scale(100%) rotate(1deg) }
+    65%  { transform: scale(105%) }
+    100% { transform: scale(100%) rotate(-1deg) }
+}
