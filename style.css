@@ -19,6 +19,7 @@
 html, body {
     height: 100vh;
     overflow: hidden;
+    background-color: yellow;
 }
 
 h1 {
@@ -48,10 +49,10 @@ header {
     justify-content: space-around;
     background-color: cyan;
     color: aliceblue;
-    z-index: 9999;
-    padding-bottom: 100px;
+    z-index: 99;
+    padding-bottom: 64px;
     -webkit-mask:
-    conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) 50%/80px 100%;
+    conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) 50%/64px 100.5%;
 }
 .header-control {
     display: flex;
@@ -86,14 +87,12 @@ input:hover {
 }
 
 .content {
-    background-color: yellow;
     height: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
-
 }
 
 .mumu {
@@ -101,13 +100,16 @@ input:hover {
     filter: invert();
     mix-blend-mode: multiply;
 }
+
 .dance {    
     animation: dance linear infinite 1s;
 }
+
 p span.dance2 {    
     animation: awooga linear infinite .1s;
     color: blue;
 }
+
 @keyframes dance {
     0%   { transform: scale(100%) rotate(-1deg) }
     15%  { transform: scale(105%) }
