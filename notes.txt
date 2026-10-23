@@ -1,0 +1,33 @@
+proximo passo do dashboard é ia, botar ele pra ler a base de dados, e com o promptzao aqui pra o cliente poder dizer "olha preciso ver x" e o bot deve ser capaz de entregar na linguagem natural dele o que ele precisa ver na dashboard, ou seja, a ia serve como um intermediador
+
+ja foi a era de fazer site a ganhar dinheiro, qualquer pessoa faz um site simples
+tipo pensa no canva, todo mundo conhece o canva
+o canva tem um template de landing page
+de graça voce entra no canva e eu quero esse template aqui
+clica edita baixa código bota no github e avs ou render etc ou gitpages
+tipo, a era dos sites simples acabou, pra gente ganhar uma grana
+
+claro, ainda vai ter uns clientes por um tempo
+mas faz tempo que eu não faço site
+todo cliente que vem atrás de mim é sistema
+eu sou conhecido porque eu faço sistemac
+com controle de acesso, nivel de acesso
+lida com banco de dados grande
+quem me conhece vem atrás de mim por isso
+qualquer coisa que tenha algum nível de complexidade que bata contra uma ideia rasa
+
+aqui no canva, website
+se a pessoa não consegue fazer um site sozinha, pessoa
+é porque ela tá com preguiça até de falar com o chatgpt
+pq ele te diz até como deixar online
+
+render vercel netlify
+boas plats pra testes e portfolio
+
+antes tinha uma divisao entre FS e DA, antes DA usava PowerBI
+hoje eles estao invadindo nossa area para mostrar informação
+DA faz coisa com IA para consumo
+a gente faz para alimentar o crud, a gente tem o crud a nosso favor
+
+vai ter situações onde entra a gente
+mas em outras entra um dashboard feito por um DA
