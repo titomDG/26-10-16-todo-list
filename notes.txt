@@ -24,6 +24,7 @@ pq ele te diz até como deixar online
 render vercel netlify
 boas plats pra testes e portfolio
 
+mas e os DA
 antes tinha uma divisao entre FS e DA, antes DA usava PowerBI
 hoje eles estao invadindo nossa area para mostrar informação
 DA faz coisa com IA para consumo
@@ -31,3 +32,68 @@ a gente faz para alimentar o crud, a gente tem o crud a nosso favor
 
 vai ter situações onde entra a gente
 mas em outras entra um dashboard feito por um DA
+
+data analytics vai usar um ETL, 3 etapas de EDL
+a gente porém trabalh diretamente com o banco mesmo
+o nosso ETL seria uma API, nossa api funciona como ETL
+porque nossa api não é obrigada a se conectar a um banco de dados
+ela pode ser conectada a qualquer coisa, incluindo outras APIs
+por exemplo pastorar um processo
+a minha pi não pastora um processo, tem uma chamada escavador que apstora
+varre os bancos de dados de todos os forums do brasil
+o dono da aplicaçao paga bota reais em credito e todo dia ela roda uma rotina
+eu configurei uma webhook, um link da minha app que vai estar preparado para receber uma requisiçao e guardar dados no meu banco
+mas essa requisiçao nao vem da minha front end, vai vir de terceiros
+no caso o escava dor todo dia de manhã roda uma rotina
+na hora que ele ve um processo que eu mandei pastorar ele manda uma notificaçao
+eu pego e  salvo na base de dados
+quadno chega na app vem a notificação "processo tal em tal canto"
+aí o software manda uma notificação pro advogado conectado a causa "processo aconteceu x"
+
+eu tneho aula com um tiozinho que é macaco velho
+ele tem uma aplicaçao que a maioria das revendedoras de carro concessionaria quase toda tem o sistema desse velho em fortaleza mt dinheiro
+aí tá em declínio o negocio dele pq o sistema é feito em VB6
+aí ele me chamou e ele tem umas aulas comigo para ele tentar transformar o sistema em algo mais moderno que é o que estamos fazendo aqui
+enquanto isso nao acontece e ele nao consegue transformar aos poucos estamos migrando a aplicação um modulo por vez
+aí lá no VB acontece de um jeito uma operação ai quando ta na plicação que estou desenvolvendo com ele acontece de outra forma
+tem esse lance de transformacao
+os dados vem de um jeito de la
+mas tem um banco que fica refletindo
+minha aplicaçao pastor a app dele quanod tem coisa la e aí pega isso deixa do jeito que eu quero e guarda no banco
+quando a gente terminar tudo a gente mata esse banco e fica só com esse
+
+==
+
+no css tem algo chamado pseudo classes
+sao estados de um determinado elemento
+a gente tem :focus, :hover, :active, são "estados"
+
+===
+
+tem tipos de seletores
+tag
+.class
+#id
+
+==
+
+position é sobre como os elementos ficam na tela, assim como div, mas é diferente
+pense em uma caixa trimensional, um cubo
+ele tem que eixos? x e y, e o z
+o position fixed mexe no eixo z dos elementos
+a parte escura fica por cima de tudo que foi feito
+e a gaveta está por c ima desse cara aqui
+position fixed nesse elemento tira ele da camada dele e bota em uma camada 'a frente
+z index não funciona sem position
+se eu botar gap 16px, e apagar flex, nao tem mais gap, porque gap só funciona com flex
+o z index é a mesma coisa, ele define a ordem
+
+
+==
+
+engenheiro de ia era putaria
+hoje tem conector, rag, agentes
+de repente a gente tem que pensar em pipeline, em mcp (uma api entre ias)
+agora faz sentido essa questão de engenheiro de ia, vc tem que estudar
+se nao estudar nao vai usar ada forma mais eficiente possivel
+uam coisa é um civil usando ia, outra coisa é a gente usando ia
